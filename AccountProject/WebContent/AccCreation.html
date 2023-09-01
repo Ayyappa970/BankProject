@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+body{
+	background-image: linear-gradient(90deg,green,red);
+	
+}
+input {
+	width: 15vw;
+	height: 4vh;
+	border-radius: 0.6vw;
+	text-align: center;
+}
+#su{
+	width: 5vw;
+	cursor: pointer;
+}
+h1{
+	font-size: 4vw;
+}
+.r{
+	width: 1.2vw;
+	margin-left: 1.5vw;
+	cursor: pointer;
+}
+</style>
+</head>
+<body>
+<center>
+<h1>Account Creation</h1>
+<form action="AccCreation" method="post">
+<input placeholder="Enter your First Name" name="fn"><br><br>
+<input placeholder="Enter your Last Name" name="ln"><br><br>
+<input placeholder="Enter your Father Name" name="fna"><br><br>
+<input placeholder="Enter your Mobile Number" name="mb"><br><br>
+<input placeholder="Enter your PAN Number" name="pn"><br><br>
+<input placeholder="Enter your Aadhar Number" name="an"><br><br>
+<input placeholder="Enter your Address" name="as"><br><br>
+<input placeholder="Enter your Password" name="ps"><br><br>
+Gender <input type="radio" value="male" name="a" class="r">male<input type="radio" value="female" name="a" class="r">female<br><br>
+<input type="submit" value="Create" id="su">
+</form>
+</center>
+</body>
+</html>
